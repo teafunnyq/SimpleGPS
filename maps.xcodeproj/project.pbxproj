@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		52525AA51E70A4D600158D0D /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 52525AA41E70A4D600158D0D /* main.cpp */; };
+		5298E90F1E7353A900ED2893 /* AttractionMapper.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5298E90E1E7353A900ED2893 /* AttractionMapper.cpp */; };
+		5298E9111E7353B600ED2893 /* MapLoader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5298E9101E7353B600ED2893 /* MapLoader.cpp */; };
+		5298E9131E7353C800ED2893 /* Navigator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5298E9121E7353C800ED2893 /* Navigator.cpp */; };
+		5298E9151E7353D900ED2893 /* SegmentMapper.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5298E9141E7353D900ED2893 /* SegmentMapper.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,7 +28,14 @@
 
 /* Begin PBXFileReference section */
 		52525AA11E70A4D500158D0D /* maps */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = maps; sourceTree = BUILT_PRODUCTS_DIR; };
-		52525AA41E70A4D600158D0D /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		52525AA41E70A4D600158D0D /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = main.cpp; path = /Users/tiffanykyu/Desktop/CS32/maps/maps/main.cpp; sourceTree = "<absolute>"; };
+		52525AAC1E70A52F00158D0D /* MyMap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyMap.h; sourceTree = "<group>"; };
+		5298E90E1E7353A900ED2893 /* AttractionMapper.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = AttractionMapper.cpp; sourceTree = "<group>"; };
+		5298E9101E7353B600ED2893 /* MapLoader.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MapLoader.cpp; sourceTree = "<group>"; };
+		5298E9121E7353C800ED2893 /* Navigator.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Navigator.cpp; sourceTree = "<group>"; };
+		5298E9141E7353D900ED2893 /* SegmentMapper.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SegmentMapper.cpp; sourceTree = "<group>"; };
+		5298E9171E7353ED00ED2893 /* provided.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = provided.h; sourceTree = "<group>"; };
+		52C33A4F1E7895EB00627C8D /* support.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = support.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +69,13 @@
 			isa = PBXGroup;
 			children = (
 				52525AA41E70A4D600158D0D /* main.cpp */,
+				52525AAC1E70A52F00158D0D /* MyMap.h */,
+				5298E90E1E7353A900ED2893 /* AttractionMapper.cpp */,
+				5298E9101E7353B600ED2893 /* MapLoader.cpp */,
+				5298E9121E7353C800ED2893 /* Navigator.cpp */,
+				5298E9141E7353D900ED2893 /* SegmentMapper.cpp */,
+				5298E9171E7353ED00ED2893 /* provided.h */,
+				52C33A4F1E7895EB00627C8D /* support.h */,
 			);
 			path = maps;
 			sourceTree = "<group>";
@@ -119,6 +137,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				52525AA51E70A4D600158D0D /* main.cpp in Sources */,
+				5298E9131E7353C800ED2893 /* Navigator.cpp in Sources */,
+				5298E9111E7353B600ED2893 /* MapLoader.cpp in Sources */,
+				5298E9151E7353D900ED2893 /* SegmentMapper.cpp in Sources */,
+				5298E90F1E7353A900ED2893 /* AttractionMapper.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -239,6 +261,7 @@
 				52525AAA1E70A4D600158D0D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
